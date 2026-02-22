@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Thasin T – Engineering Student & Aspiring Software Engineer. Portfolio showcasing projects, skills, and experience." />
+  <meta name="keywords" content="software engineer, portfolio, engineering student, web developer, placement" />
+  <meta name="author" content="Thasin T" />
+  <title>Thasin T | Software Engineer Portfolio</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💻</text></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-logo">TT<span class="dot">.</span></div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#hero" class="nav-link active">Home</a></li>
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#skills" class="nav-link">Skills</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#internships" class="nav-link">Experience</a></li>
+      <li><a href="#certifications" class="nav-link">Certs</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section id="hero" class="hero">
+    <div class="hero-left">
+      <p class="hero-tag reveal">Available for Placement </p>
+      <h1 class="hero-name reveal">Thasin T</h1>
+      <p class="hero-title reveal" id="typingTarget"></p>
+      <p class="hero-objective reveal">
+        Aspiring Software Engineer with a strong foundation in Java and front-end development, looking for a platform to apply my technical skills, learn modern development practices, and contribute effectively to real-world projects.
+      </p>
+      <div class="hero-socials reveal">
+        <a href="https://github.com" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://leetcode.com" target="_blank" aria-label="LeetCode"><i class="fas fa-code"></i></a>
+      </div>
+    </div>
+    <div class="hero-right reveal">
+      <div class="resume-card">
+        <div class="resume-icon"><i class="fas fa-file-alt"></i></div>
+        <h3>My Resume</h3>
+        <p>Download or preview my latest CV</p>
+        <a href="#" class="btn btn-primary" download><i class="fas fa-download"></i> Download Resume</a>
+        <a href="#" class="btn btn-outline" target="_blank"><i class="fas fa-eye"></i> Preview</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">Who I Am</span>
+        <h2>About Me</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-left reveal">
+          <p class="about-intro">
+            I am a pre-final year Computer Science Engineering student with a strong foundation in Java and front-end development. I am passionate about problem-solving and enjoy building clean, responsive, and user-friendly applications. With a solid understanding of programming concepts and web technologies, I strive to write efficient, scalable, and maintainable code.
+          </p>
+          <div class="education-block">
+            <h3><i class="fas fa-graduation-cap"></i> Education</h3>
+            <div class="edu-item">
+              <span class="edu-year">2023 – 2027</span>
+              <div>
+                <strong>B.E – Computer Science Engineering</strong>
+                <p>Panimalar Engineering College · CGPA: 8.0 / 10</p>
+              </div>
+            </div>
+            <div class="edu-item">
+              <span class="edu-year">2022 – 2023</span>
+              <div>
+                <strong>Higher Secondary (XII) – Science</strong>
+                <p>Alphonsa Matriculation Higher Secondary School · 78.5%</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="about-right reveal">
+          <h3>Strengths</h3>
+          <div class="strengths-grid">
+            <div class="strength-tag"><i class="fas fa-brain"></i> Problem Solving</div>
+            <div class="strength-tag"><i class="fas fa-users"></i> Teamwork</div>
+            <div class="strength-tag"><i class="fas fa-sync-alt"></i> Adaptability</div>
+            <div class="strength-tag"><i class="fas fa-comments"></i> Communication</div>
+            <div class="strength-tag"><i class="fas fa-lightbulb"></i> Critical Thinking</div>
+            <div class="strength-tag"><i class="fas fa-clock"></i> Time Management</div>
+          </div>
+          <h3 style="margin-top:2rem;">Career Interests</h3>
+          <div class="interests">
+            <span>Full-Stack Development</span>
+            <span>Java Developer</span>
+            <span>Open Source</span>
+            <span>System Design</span>
+            <span>DevOps</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section id="skills" class="section section-alt">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">What I Know</span>
+        <h2>Technical Skills</h2>
+      </div>
+      <div class="skills-grid">
+
+        <div class="skill-card reveal">
+          <div class="skill-card-icon"><i class="fas fa-code"></i></div>
+          <h3>Programming Languages</h3>
+          <div class="skill-tags">
+            <span>Java</span><span></span>
+          </div>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-card-icon"><i class="fas fa-paint-brush"></i></div>
+          <h3>Frontend Development</h3>
+          <div class="skill-tags">
+            <span>HTML5</span><span>CSS3</span><span>React.js</span>
+          </div>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-card-icon"><i class="fas fa-server"></i></div>
+          <h3>Backend / Tools</h3>
+          <div class="skill-tags">
+            <span>Node.js</span><span>Express.js</span>
+          </div>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-card-icon"><i class="fas fa-database"></i></div>
+          <h3>Database</h3>
+          <div class="skill-tags">
+            <span>MySQL</span><span>MongoDB</span>
+          </div>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-card-icon"><i class="fas fa-book"></i></div>
+          <h3>Core Subjects</h3>
+          <div class="skill-tags">
+            <span>OS</span><span>DBMS</span><span>CN</span><span>OOP</span>
+          </div>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-card-icon"><i class="fas fa-tools"></i></div>
+          <h3>Developer Tools</h3>
+          <div class="skill-tags">
+            <span>VS Code</span><span>GitHub</span>
+          </div>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-card-icon"><i class="fas fa-trophy"></i></div>
+          <h3>Problem Solving</h3>
+          <div class="skill-tags">
+            <span>LeetCode</span><span>HackerRank</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section id="projects" class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">What I've Built</span>
+        <h2>Projects</h2>
+      </div>
+      <div class="projects-grid">
+
+       
+        <div class="project-card reveal">
+          <div class="project-number">01</div>
+          <h3>Sign Language Translator</h3>
+          <p>An AI-powered real-time gesture recognition system that translates sign language hand gestures into text and speech using deep learning. The system detects hand landmarks, classifies gestures accurately, and enables seamless communication between hearing-impaired and non-hearing individuals.</p>
+          <div class="tech-stack">
+            <span>Python</span><span>TensorFlow / Keras</span><span>OpenCV</span><span>MediaPipe</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="btn btn-sm btn-primary" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+            
+          </div>
+        </div>
+
+        
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== INTERNSHIPS ===== -->
+  <section id="internships" class="section section-alt">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">Where I've Worked</span>
+        <h2>Internships & Experience</h2>
+      </div>
+      <div class="experience-grid">
+
+        <div class="exp-card reveal">
+          <div class="exp-header">
+            <div>
+              <h3>Full Stack Web Development Intern</h3>
+              <span class="company"><i class="fas fa-building"></i> AK Infopark</span>
+            </div>
+            <span class="duration">Jun – Jul 2025</span>
+          </div>
+          <ul class="exp-list">
+            <li>Developed responsive web applications using modern front-end and back-end technologies.</li>
+            <li>Built and integrated RESTful APIs for seamless client-server communication.</li>
+            <li>Implemented dynamic UI components and optimized backend logic for performance.</li>
+          </ul>
+          <div class="skills-gained">
+            <strong>Skills:</strong>
+            <span>HTML</span><span>CSS</span><span>JavaScript</span><span>React.js</span>
+          </div>
+          <a href="https://drive.google.com/file/d/1V8Jv8Hpq90pwGTlSCDyeZ-pwE20Jhj8V/view?usp=drive_link" class="btn btn-sm btn-ghost mt-1" target="_blank"><i class="fas fa-certificate"></i> View Certificate</a>
+        </div>
+
+        <div class="exp-card reveal">
+          <div class="exp-header">
+            <div>
+              <h3>Frontend Web Development Intern</h3>
+              <span class="company"><i class="fab fa-github"></i> Pearl Tech Solutions</span>
+            </div>
+            <span class="duration">Sep – Oct 2024</span>
+          </div>
+          <ul class="exp-list">
+            <li>Designed and developed responsive user interfaces using modern web technologies.</li>
+            <li>Improved website performance and optimized UI rendering.</li>
+            <li>Implemented interactive components to enhance user experience.</li>
+          </ul>
+          <div class="skills-gained">
+            <strong>Skills:</strong>
+            <span>HTML</span><span>JavaScript</span><span>CSS</span><span>React.js</span>
+          </div>
+          <a href="https://drive.google.com/file/d/15nLkqVWnTjBQdsXE407aZWAIi1oJn6mN/view?usp=drive_link" class="btn btn-sm btn-ghost mt-1" target="_blank"><i class="fas fa-certificate"></i> View Certificate</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CERTIFICATIONS ===== -->
+  <section id="certifications" class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">What I've Earned</span>
+        <h2>Certifications</h2>
+      </div>
+      <div class="certs-grid">
+
+        <div class="cert-card reveal">
+          <h3>Cybersecurity Analysis & Design</h3>
+          <span class="issuer">IT-ITeS Sector Skills Council (NASSCOM)</span>
+          <p>Cybersecurity fundamentals, threat analysis, secure system design principles, risk assessment methodologies, industry-aligned competency standards, and practical assessment-based validation of security concepts.</p>
+          <a href="https://drive.google.com/file/d/1PfO_krTtHdGeIpQZFka8sUtb9t4vFPjT/view?usp=drive_link" class="btn btn-sm btn-outline" target="_blank"><i class="fas fa-external-link-alt"></i> View Certificate</a>
+        </div>
+
+        <div class="cert-card reveal">
+          <h3>NPTEL – Programming in Java</h3>
+          <span class="issuer">National Programme on Technology Enhanced Learning (NPTEL)</span>
+          <p>Object-oriented programming concepts, Java syntax and fundamentals, classes and objects, inheritance, polymorphism, exception handling, multithreading, file handling, and core application development using Java.</p>
+          <a href="https://drive.google.com/file/d/1_UeUx5jZygs3q7oa0IYArdsTEbrCSJgG/view?usp=drive_link" class="btn btn-sm btn-outline" target="_blank"><i class="fas fa-external-link-alt"></i> View Certificate</a>
+        </div>
+
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== RESUME SECTION ===== -->
+  <section id="resume" class="section section-alt">
+    <div class="container">
+      <div class="resume-highlight reveal">
+        <div class="resume-hl-left">
+          <span class="section-label">Ready to Hire</span>
+          <h2>Grab My Resume</h2>
+          <p>A concise, ATS-optimized resume highlighting my education, skills, projects, and experience — ready for immediate review.</p>
+          <div class="resume-stats">
+            <div class="stat"><strong>8.7</strong><span>CGPA</span></div>
+            <div class="stat"><strong>400+</strong><span>DSA Problems</span></div>
+            <div class="stat"><strong>3+</strong><span>Projects</span></div>
+            <div class="stat"><strong>2</strong><span>Internships</span></div>
+          </div>
+        </div>
+        <div class="resume-hl-right">
+          <div class="resume-card-alt">
+            <i class="fas fa-file-alt"></i>
+            <h3>Thasin T – Resume</h3>
+            <p>Last updated: January 2026</p>
+            <a href="#" class="btn btn-primary" download><i class="fas fa-download"></i> Download PDF</a>
+            <a href="#" class="btn btn-outline" target="_blank"><i class="fas fa-eye"></i> Preview Online</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT / FOOTER ===== -->
+  <footer id="contact" class="footer">
+    <div class="container">
+      <div class="footer-top reveal">
+        <div class="footer-left">
+          <div class="footer-logo">TT<span class="dot">.</span></div>
+          <p class="footer-quote">"Building solutions with code, passion, and purpose."</p>
+          <p class="footer-tagline">Open to full-time roles, internships & collaborations.</p>
+        </div>
+        <div class="footer-right">
+          <h3>Let's Connect</h3>
+          <div class="contact-info">
+            <a href="iamthasin@gmail.com"><i class="fas fa-envelope"></i> alex.morgan@email.com</a>
+            <a href="tel:+918124145767"><i class="fas fa-phone"></i> +91 98765 43210</a>
+            <span><i class="fas fa-map-marker-alt"></i> Chennai, India</span>
+          </div>
+          <div class="footer-socials">
+            <a href="https://github.com" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://leetcode.com" target="_blank" aria-label="LeetCode"><i class="fas fa-code"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 Alex Morgan. Designed & built with <i class="fas fa-heart"></i> from scratch.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll to top button -->
+  <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
